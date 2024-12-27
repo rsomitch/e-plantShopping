@@ -289,7 +289,7 @@ const totalItems = () => {
                 <div> 
                     <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
                         <h1 className='cart'>
-                            <label style={{zIndex:1,position:"fixed",fontSize:"1.5rem",cursor:"pointer"}}>
+                            <label style={{zIndex:1,position:"fixed",fontSize:"1.5rem",cursor:"pointer",top:"2.2rem",right:"2.5rem"}}>
                                 {totalItems()}
                             </label>
                 
